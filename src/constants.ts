@@ -1,0 +1,5 @@
+export const TILE_SIZE = 10
+export const GAME_WIDTH = TILE_SIZE * 32
+export const GAME_HEIGHT = TILE_SIZE * 32
+export const SCOREBOARD_HEIGHT = 30
+export const PLAYAREA_HEIGHT = GAME_HEIGHT - SCOREBOARD_HEIGHT
