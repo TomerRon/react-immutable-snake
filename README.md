@@ -81,7 +81,7 @@ useDirectionalInput(
 Clone this repository, and install the dependencies:
 
 ```
-$ clone https://github.com/TomerRon/react-immutable-snake
+$ git clone https://github.com/TomerRon/react-immutable-snake
 $ cd react-immutable-snake
 $ yarn
 ```
