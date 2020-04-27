@@ -44,7 +44,7 @@ export const getNextBoardState = (
     body: nextBody,
     food: isEating ? getNextFood() : food,
     direction,
-    score: (body.length - 1) * 50,
+    score: (nextBody.length - 1) * 50,
     dead: isDead,
     history: [...state.history, snapshot],
   }
